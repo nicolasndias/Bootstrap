@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evanescence History</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .navbar-nav .nav-link.active {
+            color: #fff;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        section {
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+            padding-top: 70px;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: white;
+        }
+
+        #carousel-exemplo {
+            max-width: 700px; 
+            margin: 0 auto;
+        }
+
+        .carousel-item {
+            aspect-ratio: 16 / 9;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .carousel-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+        .carousel-item {
+            height: 250px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Evanescence History</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Top">Top</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Albuns">Albuns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#TrackList">Albuns TrackList</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-offset="0" tabindex="0">
+
+            <section id="Top">
+                <h2>History</h2>
+                <p>Evanescence is an American rock band founded in 1994 by singer and keyboardist Amy Lee and guitarist
+                    Ben Moody in Little Rock, Arkansas. After releasing independent EPs as a duo in the late '90s and a
+                    demo CD, Evanescence released their debut studio album, Fallen, on Wind-up Records in 2003.</p>
+                <p>The album was a commercial success, selling over 17 million copies worldwide and earning the band two
+                    Grammy Awards, including Best New Artist. The band's second studio album, The Open Door, was
+                    released in 2006 and debuted at number one on the Billboard 200 chart.</p>
+
+                <div class="container my-5">
+                    <div id="carousel-exemplo" class="carousel carousel-fade slide mx-auto w-100 w-md-75 w-lg-50"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="https://www.solarnavigator.net/music/music_images/Evanescence_group_picture_October_24_2006.jpg">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://content.api.news/v3/images/bin/45fdf1af154a48e0afbfda331d889f72">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/375a891c-54a6-45db-a07f-bd4d1fbbe528/d3gseih-51f81091-c2aa-4aed-aad9-d5a8f26f957f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3NWE4OTFjLTU0YTYtNDVkYi1hMDdmLWJkNGQxZmJiZTUyOFwvZDNnc2VpaC01MWY4MTA5MS1jMmFhLTRhZWQtYWFkOS1kNWE4ZjI2Zjk1N2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Fip3BvoKQRavr62TlsRVbgQoFa7b5oBnIXqmcwEj9NQ">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                        </div>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev"
+                            type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next"
+                            type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"
+                                aria-current="true"></button>
+                            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="Albuns">
+                <h2>Albuns</h2>
+                <div class="container">
+                    <nav class="nav nav-pills">
+                        <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active"
+                            type="button">Fallen</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">The Open
+                            Door</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link"
+                            type="button">Evanescence</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link"
+                            type="button">Synthesis</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba5" class="nav-link" type="button">The Bitter
+                            Truth</button>
+                    </nav>
+                    <div class="tab-content">
+                        <div id="aba1" class="tab-pane active">
+                            <p>Fallen, released in 2003, is Evanescence’s debut studio album that combines gothic rock, alternative metal, and orchestral elements to create a dark yet melodic sound. Fronted by Amy Lee’s powerful and emotive vocals, the album explores themes of heartbreak, inner turmoil, and personal struggle. Its rich production and blend of piano, heavy guitars, and symphonic layers set it apart from other rock albums of its time, giving it a dramatic and cinematic quality.</p>
+                            <p>The album achieved massive commercial success, largely thanks to hit singles like “Bring Me to Life,” which won a Grammy Award, and the haunting ballad “My Immortal.” Fallen resonated with a wide audience for its raw emotional honesty and unique fusion of styles. It helped define early 2000s rock music and established Evanescence as a major force in the alternative and gothic rock scenes.</p>
+                            <img src="https://evanescencereference.info/wiki/images/thumb/Fallencover.jpg/250px-Fallencover.jpg" alt="Cover Album">
+                        </div>
+                        <div id="aba2" class="tab-pane">
+                            <p>The Open Door, released in 2006, is Evanescence’s second studio album, showcasing a more mature and expansive sound compared to their debut. The album blends gothic rock and alternative metal with classical influences, featuring richer orchestration and more complex arrangements. Amy Lee’s songwriting dives deeper into themes of empowerment, personal growth, and overcoming darkness, while her vocal performance remains powerful and emotive throughout the record.</p>
+
+                            <p>The Open Door received critical acclaim and commercial success, highlighted by singles like “Call Me When You’re Sober” and “Lithium.” The album solidified Evanescence’s presence in the rock world, demonstrating their evolution as artists while maintaining the emotional intensity and haunting atmosphere fans loved from their first album. It is praised for its dynamic contrast between heavy riffs and delicate piano-driven ballads, making it a defining album of the mid-2000s alternative rock scene.</p>
+
+                            <img src="https://evanescencereference.info/wiki/images/thumb/Tod_cover.jpg/250px-Tod_cover.jpg" alt="Cover Album">
+                        </div>
+                        <div id="aba3" class="tab-pane">
+                            <p>Evanescence, released in 2011, is the band’s third studio album and marks a return after a five-year hiatus. The album blends the band’s signature gothic rock and alternative metal style with a more polished, modern sound. Amy Lee’s vocals are front and center, showcasing her dynamic range and emotional depth. The lyrics focus on themes of resilience, hope, and personal transformation, reflecting Lee’s growth as both a musician and a person.</p>
+
+                            <p>The album received generally positive reviews and features singles like “What You Want” and “My Heart Is Broken.” While maintaining the dark and dramatic atmosphere characteristic of Evanescence, this album experiments with electronic elements and layered production. It reaffirmed the band’s relevance in the rock scene and highlighted their ability to evolve while staying true to their core sound.</p>
+
+                            <img src="https://evanescencereference.info/wiki/images/thumb/Evanescence_album.jpg/250px-Evanescence_album.jpg" alt="Cover Album">
+                        </div>
+                        <div id="aba4" class="tab-pane">
+                            <p>Synthesis, released in 2017, is a unique album where Evanescence reimagines their previous songs with full orchestral arrangements and electronic elements. This project highlights Amy Lee’s passion for blending classical music with rock, creating a cinematic and atmospheric soundscape that brings new emotional depth to the band’s hits. The album also features two new original songs, adding fresh material to their reinterpreted catalog.</p>
+
+                            <p>The album was praised for its innovative approach and powerful performances, showcasing the band’s versatility and artistic growth. Synthesis allowed Evanescence to revisit their music in a bold, orchestral style that appeals both to longtime fans and new listeners, emphasizing the dramatic and haunting qualities that define their sound.</p>
+
+                            <img src="https://evanescencereference.info/wiki/images/thumb/Ev2017Synth.jpeg/250px-Ev2017Synth.jpeg" alt="Cover Album">
+                        </div>
+                        <div id="aba5" class="tab-pane">
+                            <p>The Bitter Truth, released in 2021, is Evanescence’s fourth studio album featuring all-new original material after a decade. It marks a powerful return to their rock roots with a raw, modern edge. The album blends heavy guitar riffs, electronic textures, and orchestral elements, while Amy Lee delivers some of her most direct and emotionally charged lyrics to date. Themes of grief, resilience, and truth are explored, influenced by personal and global hardships the band faced leading up to its release.</p>
+
+                            <p>Critically acclaimed for its honesty and energy, The Bitter Truth includes standout tracks like “Wasted on You,” “Use My Voice,” and “Better Without You.” The album captures a spirit of defiance and empowerment, showing Evanescence evolving while staying true to their core identity. It’s both a tribute to survival and a statement of artistic strength, cementing the band's continued relevance in the modern rock landscape.</p>
+
+                            <img src="https://evanescencereference.info/wiki/images/thumb/TheBitterTruth.jpg/250px-TheBitterTruth.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="TrackList">
+                <h2>Albuns TrackList</h2>
+
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Fallen
+                                </div>
+                                <img
+                                    src="https://evanescencereference.info/wiki/images/thumb/Fallencover.jpg/250px-Fallencover.jpg" />
+                                <h4 class="card-title">Fallen</h4>
+                                <ol>
+                                    <li>Going Under</li>
+                                    <li>Bring Me to Life</li>
+                                    <li>Everybody's Fool</li>
+                                    <li>My Immortal</li>
+                                    <li>Haunted</li>
+                                    <li>Tourniquet</li>
+                                    <li>Imaginary</li>
+                                    <li>Taking Over Me</li>
+                                    <li>Hello</li>
+                                    <li>My Last Breath</li>
+                                    <li>Whisper</li>
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    The Open Door
+                                </div>
+                                <img
+                                    src="https://evanescencereference.info/wiki/images/thumb/Tod_cover.jpg/250px-Tod_cover.jpg" />
+                                <h4 class="card-title">The Open Door</h4>
+                                <ol>
+                                    <li>Sweet Sacrifice</li>
+                                    <li>Call Me When You're Sober</li>
+                                    <li>Weight of the World</li>
+                                    <li>Lithium</li>
+                                    <li>Cloud Nine</li>
+                                    <li>Snow White Queen</li>
+                                    <li>Lacrymosa</li>
+                                    <li>Like You</li>
+                                    <li>Lose Control</li>
+                                    <li>The Only One</li>
+                                    <li>Your Star</li>
+                                    <li>All That I'm Living For</li>
+                                    <li>Good Enough</li>
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Evanescence
+                                </div>
+                                <img
+                                    src="https://evanescencereference.info/wiki/images/thumb/Evanescence_album.jpg/250px-Evanescence_album.jpg" />
+                                <h4 class="card-title">Evanescence</h4>
+                                <ol>
+                                    <li>What You Want</li>
+                                    <li>Made of Stone</li>
+                                    <li>The Change</li>
+                                    <li>My Heart Is Broken</li>
+                                    <li>The Other Side</li>
+                                    <li>Erase This</li>
+                                    <li>Lost in Paradise</li>
+                                    <li>Sick</li>
+                                    <li>End of the Dream</li>
+                                    <li>Oceans</li>
+                                    <li>Never Go Back</li>
+                                    <li>Swimming Home</li>
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Synthesis
+                                </div>
+                                <img
+                                    src="https://evanescencereference.info/wiki/images/thumb/Ev2017Synth.jpeg/250px-Ev2017Synth.jpeg" />
+                                <h4 class="card-title">Synthesis</h4>
+                                <ol>
+                                    <li>Overture</li>
+                                    <li>Never Go Back</li>
+                                    <li>Hi-Lo</li>
+                                    <li>My Heart Is Broken</li>
+                                    <li>Lacrymosa</li>
+                                    <li>The End of the Dream</li>
+                                    <li>Bring Me to Life (Synthesis)</li>
+                                    <li>Unraveling (Interlude)</li>
+                                    <li>Imaginary</li>
+                                    <li>Secret Door</li>
+                                    <li>Lithium</li>
+                                    <li>Lost in Paradise</li>
+                                    <li>Your Star</li>
+                                    <li>My Immortal</li>
+                                    <li>The In-Between</li>
+                                    <li>Imperfection</li>
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    The Bitter Truth
+                                </div>
+                                <img
+                                    src="https://evanescencereference.info/wiki/images/thumb/TheBitterTruth.jpg/250px-TheBitterTruth.jpg" />
+                                <h4 class="card-title">The Bitter Truth</h4>
+                                <ol>
+                                    <li>Artifact / The Turn</li>
+                                    <li>Broken Pieces Shine</li>
+                                    <li>The Game Is Over</li>
+                                    <li>Yeah Right</li>
+                                    <li>Feeding the Dark</li>
+                                    <li>Wasted on You</li>
+                                    <li>Better Without You</li>
+                                    <li>Use My Voice</li>
+                                    <li>Take Cover</li>
+                                    <li>Far from Heaven</li>
+                                    <li>Part of Me</li>
+                                    <li>Blind Belief</li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        </section>
+
+    </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
